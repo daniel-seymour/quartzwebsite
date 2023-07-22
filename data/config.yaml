@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Daniel Seymour
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -21,9 +21,17 @@ description:
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🪴 Quartz 3.3"
+  "Personal Website"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/danjseymour
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/seymourdan
+    - link_name: Goodreads
+    link: https://www.goodreads.com/user/show/26856901-daniel-seymour
+    - link_name: LinkedIn
+    link: https://www.linkedin.com/in/daniel-seymour-82646b169/
+    - link_name: CV
+    link: https://drive.google.com/file/d/1potxdn1wcfd7aR7_G6GA2Pv7LkELkdzu/view?usp=sharing
+    - link_name: Substack
+    link: https://substack.com/@danielseymour
