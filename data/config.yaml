@@ -2,7 +2,7 @@ name: Daniel Seymour
 favicon:
 - {rel: "shortcut elephant", href: "icon.png", type: "image/png"}
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -18,4 +18,4 @@ search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-page_title: test4
+page_title: About me
