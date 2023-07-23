@@ -12,14 +12,11 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
   "Personal Website"
 links:
@@ -27,11 +24,11 @@ links:
     link: https://twitter.com/danjseymour
   - link_name: GitHub
     link: https://github.com/seymourdan
-    - link_name: Goodreads
+  - link_name: Goodreads
     link: https://www.goodreads.com/user/show/26856901-daniel-seymour
-    - link_name: LinkedIn
+  - link_name: LinkedIn
     link: https://www.linkedin.com/in/daniel-seymour-82646b169/
-    - link_name: CV
+  - link_name: CV
     link: https://drive.google.com/file/d/1potxdn1wcfd7aR7_G6GA2Pv7LkELkdzu/view?usp=sharing
-    - link_name: Substack
+  - link_name: Substack
     link: https://substack.com/@danielseymour
