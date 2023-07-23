@@ -11,24 +11,16 @@
             "id": "83ab6c38365e9740",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/templates/post.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "18e7812582c3a40b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/private/private-note.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -37,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Rationality and Choice Course Notes.md",
+                "file": "Rationality and Choice Course Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Rationality and Choice Course Notes.md",
+                "file": "Rationality and Choice Course Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Rationality and Choice Course Notes.md",
+                "file": "Rationality and Choice Course Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Rationality and Choice Course Notes.md"
+                "file": "Rationality and Choice Course Notes.md"
               }
             }
           }
@@ -173,6 +165,9 @@
   },
   "active": "ff33ffd4792e7dd5",
   "lastOpenFiles": [
+    "Other Personal Websites I like.md",
+    "templates",
+    "Rationality and Choice Course Notes.md",
     "content/private/private-note.md",
     "content/Other Personal Websites I like.md",
     "content/Rationality and Choice Course Notes.md",

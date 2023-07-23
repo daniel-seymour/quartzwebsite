@@ -1,6 +1,6 @@
 name: Daniel Seymour
 favicon:
-- {rel: "shortcut elephant", href: "icon.png", type: "image/png"}
+- {rel: "shortcut elephant", href: "elephant.png", type: "image/png"}
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -19,3 +19,14 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 page_title: About me
+links:
+  - link_name: Twitter
+    link: https://twitter.com/danjseymour
+  - link_name: GitHub
+    link: https://github.com/seymourdan
+  - link_name: Goodreads
+    link: https://www.goodreads.com/user/show/26856901-daniel-seymour
+  - link_name: LinkedIn
+    link: https://www.linkedin.com/in/daniel-seymour-82646b169/
+  - link_name: Substack
+    link: https://substack.com/@danielseymour
