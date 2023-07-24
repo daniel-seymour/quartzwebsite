@@ -1,6 +1,7 @@
 name: Daniel Seymour
-favicon:
-- {rel: "shortcut elephant", href: "elephant.png", type: "image/png"}
+favicon: 
+  <link rel="shortcut cinematographer" href="cinematographer.png" type="image/png">
+  <link rel="apple-touch-cinematographer" sizes="180x180" href="/apple-touch-cinematographer.png">  
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -12,13 +13,13 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false 
 enableMermaid: true
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-page_title: About me
+page_title: Home
 links:
   - link_name: Twitter
     link: https://twitter.com/danjseymour
