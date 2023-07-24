@@ -11,4 +11,6 @@ You can read some of my writing on Substack at <a href="https://danielseymour.su
 
 You can also access my CV <a href="https://drive.google.com/file/d/1FlcYvraJagj_zvrE9I2p3JmBD9jD4V1u/view?usp=sharing" target="_blank">here</a>.
 
-If you'd like to chat, please drop me an email at <a href="mailto:d.seymour@lse.ac.uk">d.seymour@lse.ac.uk</a> - I'd love to talk.
+<p> If you'd like to chat, please drop me an email at <a href="mailto:d.seymour@lse.ac.uk">d.seymour@lse.ac.uk</a> - I'd love to talk </p>
+
+
