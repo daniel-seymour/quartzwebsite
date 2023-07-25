@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Daniel Seymour
 enableToc: false
 ---
 <h3>About me</h3>
