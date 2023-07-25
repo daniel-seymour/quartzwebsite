@@ -2,4 +2,4 @@
 title: "Philosophy"
 ---
 
-[[notes/Other Personal Websites I like|Other Personal Websites I like]]
+Philosophers with something to say on AI according to Reid Hoffman:
