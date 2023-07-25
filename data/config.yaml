@@ -1,7 +1,7 @@
 name: Daniel Seymour
-favicon: 
-  <link rel="shortcut icon" href="icon.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  
+favicon: |
+  <link rel="shortcut icon" href="/Users/danielseymour/Repos/quartzwebsite/static/icon.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Users/danielseymour/Repos/quartzwebsite/static/apple-touch-icon.png">  
 enableToc: true
 openToc: true
 enableLinkPreview: true
