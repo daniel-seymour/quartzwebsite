@@ -1,7 +1,9 @@
 name: Daniel Seymour
 favicon: |
-  <link rel="shortcut icon" href="/Users/danielseymour/Repos/quartzwebsite/static/icon.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/Users/danielseymour/Repos/quartzwebsite/static/apple-touch-icon.png">  
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  
+# /Users/danielseymour/Repos/quartzwebsite/static/
+# /Users/danielseymour/Repos/quartzwebsite/static
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -19,7 +21,7 @@ search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-page_title: Home
+page_title: Daniel Seymour
 links:
   - link_name: GitHub
     link: https://github.com/seymourdan
