@@ -1,7 +1,7 @@
 name: Daniel Seymour
 favicon: 
-  <link rel="shortcut cinematographer" href="cinematographer.png" type="image/png">
-  <link rel="apple-touch-cinematographer" sizes="180x180" href="/apple-touch-cinematographer.png">  
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  
 enableToc: true
 openToc: true
 enableLinkPreview: true
