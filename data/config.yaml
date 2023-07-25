@@ -21,8 +21,6 @@ search:
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 page_title: Home
 links:
-  - link_name: Twitter
-    link: https://twitter.com/danjseymour
   - link_name: GitHub
     link: https://github.com/seymourdan
   - link_name: Goodreads
@@ -31,3 +29,5 @@ links:
     link: https://www.linkedin.com/in/daniel-seymour-82646b169/
   - link_name: Substack
     link: https://substack.com/@danielseymour
+  - link_name: Twitter
+    link: https://twitter.com/danjseymour
