@@ -1,14 +1,14 @@
 ---
 title: "Plan of action for learning coding"
 ---
+[[notes/Computer Science|Computer Science]]
+
+
 Feedback welcome!
 
-Priority 1: Dataquest Data Science pathway 
-Priority 2: Deeplearning.ai how devs use ChatGPT courses
-Priority 3: Some type of Cloud based skill
-Priority 4: Web Development 
+1. Dataquest Data Science pathway 
+2. Deeplearning.ai on building ChatGPT systems
+3. Web Development
+4. Learn more about Cloud 
+5. Miscellaneous courses on Brilliant.org such as Memory management, Deep learning and Computational Biology
 
-I wonder if data science being the most promoted, career skill recently is the least fun type of coding one can do? 
-
-[[notes/Other Personal Websites I like|Other Personal Websites I like]]
-[[notes/Semantic vs Keyword search|Semantic vs Keyword search]]
