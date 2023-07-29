@@ -1,4 +1,12 @@
 name: Daniel Seymour
+favicon:
+  apple_touch_icon: "/apple-touch-icon.png"
+  favicon_32x32: "/favicon-32x32.png"
+  favicon_16x16: "/favicon-16x16.png"
+  manifest: "/site.webmanifest"
+  mask_icon: "/safari-pinned-tab.svg"
+  msapplication_tilecolor: "#da532c"
+  theme_color: "#ffffff"
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -10,28 +18,21 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: false 
+enableGitHubEdit: false
 enableMermaid: true
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 page_title: Daniel Seymour
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"> 
 links:
-  - link_name: GitHub
-    link: https://github.com/seymourdan
-  - link_name: Goodreads
-    link: https://www.goodreads.com/user/show/26856901-daniel-seymour
-  - link_name: LinkedIn
-    link: https://www.linkedin.com/in/daniel-seymour-82646b169/
-  - link_name: Substack
-    link: https://substack.com/@danielseymour
-  - link_name: Twitter
-    link: https://twitter.com/danjseymour
+- link_name: GitHub
+  link: https://github.com/seymourdan
+- link_name: Goodreads
+  link: https://www.goodreads.com/user/show/26856901-daniel-seymour
+- link_name: LinkedIn
+  link: https://www.linkedin.com/in/daniel-seymour-82646b169/
+- link_name: Substack
+  link: https://substack.com/@danielseymour
+- link_name: Twitter
+  link: https://twitter.com/danjseymour
