@@ -5,5 +5,6 @@ title: "TODO list for this website"
 
 - Put into place a quarterly review system like Jeremy Kong?
 - Explore semantic vs keyword search
-- Add more notes!
-- Better favicon needed?
+- Add updated CV
+- Add to google search console so can be searchable
+- Set up website analytics
