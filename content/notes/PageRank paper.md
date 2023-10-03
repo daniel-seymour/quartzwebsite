@@ -2,7 +2,7 @@
 ---
 title: "PageRank paper"
 ---
-[[notes/Wider reading for internship|Wider reading for internship]]
+[[notes/Computer Science|Computer Science]]
 
 Starting off with the canonical PageRank paper (shortened version) :
 
