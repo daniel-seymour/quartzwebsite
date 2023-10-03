@@ -4,7 +4,7 @@ title: "Philosophers with something to say on AI"
 [[notes/Philosophy|Philosophy]]
 [[notes/Computer Science|Computer Science]]
 
-Sourced from Tyler Cowen Podcast with Reid Hoffman
+Sourced from the Conversations with Tyler Podcast episode with Reid Hoffman
 
 1. Pierce
 2. Wittgenstein
