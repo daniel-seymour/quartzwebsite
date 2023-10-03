@@ -3,7 +3,6 @@
 title: "Deeplearning.ai tree"
 ---
 [[notes/Computer Science|Computer Science]]
-[[notes/Wider reading for internship|Wider reading for internship]]
 
 These are the [Deeplearning.ai](https://www.deeplearning.ai) short courses I want to take in the next month. They're each only a hour long and free.
 
