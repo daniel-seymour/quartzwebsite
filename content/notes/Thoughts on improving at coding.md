@@ -1,5 +1,5 @@
 ---
-title: "Plan of action for learning coding"
+title: "Thoughts on improving at coding"
 ---
 [[notes/Computer Science|Computer Science]]
 

@@ -1,10 +1,10 @@
 ---
-title: "Philosophers with something to say on AI"
+title: "Reid Hoffman on philosophy for AI"
 ---
 [[notes/Philosophy|Philosophy]]
 [[notes/Computer Science|Computer Science]]
 
-Sourced from the Conversations with Tyler Podcast episode with Reid Hoffman
+Sourced from the Conversations with Tyler Podcast episode with Reid Hoffman. Looking forward to exploring these more deeply as all five are unknowns to me at this point in time.
 
 1. Pierce
 2. Wittgenstein

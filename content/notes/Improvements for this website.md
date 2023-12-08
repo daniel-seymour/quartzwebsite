@@ -1,7 +1,7 @@
 ---
-title: "TODO list for this website"
+title: "Improvements for this website"
 ---
-[[notes/Improvements for coding|Improvements for coding]]
+[[notes/Thoughts on improving at coding|Thoughts on improving at coding]]
 
 - Explore putting into place a quarterly review system like Jeremy Kong
 - Explore semantic vs keyword and whether worth adding
