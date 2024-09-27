@@ -16,7 +16,7 @@ enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
 enableFooter: true
-enableContextualBacklinks: true
+enableContextualBacklinks: false
 enableRecentNotes: false
 enableGitHubEdit: false
 enableMermaid: true
@@ -25,14 +25,14 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 page_title: Daniel Seymour
-links:
-- link_name: GitHub
-  link: https://github.com/seymourdan
-- link_name: Goodreads
-  link: https://www.goodreads.com/user/show/26856901-daniel-seymour
-- link_name: LinkedIn
-  link: https://www.linkedin.com/in/daniel-seymour-82646b169/
-- link_name: Substack
-  link: https://substack.com/@danielseymour
-- link_name: Twitter
-  link: https://twitter.com/danjseymour
+# links:
+# - link_name: GitHub
+#   link: https://github.com/seymourdan
+# - link_name: Goodreads
+#   link: https://www.goodreads.com/user/show/26856901-daniel-seymour
+# - link_name: LinkedIn
+#   link: https://www.linkedin.com/in/daniel-seymour-82646b169/
+# - link_name: Substack
+#   link: https://substack.com/@danielseymour
+# - link_name: Twitter
+#   link: https://twitter.com/danjseymour
