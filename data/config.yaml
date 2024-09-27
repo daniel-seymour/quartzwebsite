@@ -12,10 +12,10 @@ openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
-enableCodeBlockCopy: true
-enableCallouts: true
-enableSPA: true
-enableFooter: true
+enableCodeBlockCopy: false
+enableCallouts: false
+enableSPA: false
+enableFooter: false
 enableContextualBacklinks: false
 enableRecentNotes: false
 enableGitHubEdit: false
