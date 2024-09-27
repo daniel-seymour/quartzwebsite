@@ -19,7 +19,7 @@ enableFooter: true
 enableContextualBacklinks: false
 enableRecentNotes: false
 enableGitHubEdit: false
-enableMermaid: true
+enableMermaid: false
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
