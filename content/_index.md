@@ -10,6 +10,9 @@ enableToc: false
 
 <p>Previous experience in tech and start-ups as a product manager at <a href="https://www.expediagroup.com/home/" target="_blank" rel="noopener noreferrer">Expedia Group</a> (travel) and product operations at <a href="https://www.semble.io/" target="_blank" rel="noopener noreferrer">Semble</a> (healthcare).</p>
 
-<p>I write at <a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Systems by Daniel Seymour</a>. Writing publicly on your interests leads to <a href=" https://nabeelqu.co/principles" target="_blank" rel="noopener noreferrer">Good Things</a>.</p>
+<p>I write at <a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Systems by Daniel Seymour</a>. Writing publicly on your interests leads to <a href="https://nabeelqu.co/principles" target="_blank" rel="noopener noreferrer"><em>good things</em></a>.</p>
+
+<p>If you'd like to chat, please <a href="mailto:d.seymour@lse.ac.uk">email</a> or <a href="https://www.linkedin.com/in/dan
+
 
 <p>If you'd like to chat, please <a href="mailto:d.seymour@lse.ac.uk">email</a> or <a href="https://www.linkedin.com/in/daniel-seymour1/" target="_blank" rel="noopener noreferrer">connect</a> with me — I'd love to talk!</p>
