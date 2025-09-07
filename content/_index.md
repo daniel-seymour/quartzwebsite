@@ -12,6 +12,6 @@ enableToc: false
 
 <!-- <p> I worked with my friends to launch <a href="https://www.protopiagroup.org/" target="_blank" rel="noopener noreferrer">Protopia Group</a>, a non-profit think tank which researched growth and innovation through careful data analysis.</p> -->
 
-<p>I have some writing at <a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Systems by Daniel Seymour</a>. While currently hosted on Substack, I will be moving it to this website at some point due to my skepticism over Substack's viability as a business and homogenising tendency (More  <a href="https://daringfireball.net/2025/08/the_substack_branding_and_faux_prestige_trap" target="_blank" rel="noopener noreferrer">here</a>)
+<p>I have some writing at <a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Systems by Daniel Seymour</a>. While currently hosted on Substack, I will be moving it here at some point due to my growing skepticism about the platform (More  <a href="https://daringfireball.net/2025/08/the_substack_branding_and_faux_prestige_trap" target="_blank" rel="noopener noreferrer">here</a>)
 
 <p>If you'd like to chat, please <a href="mailto:seymour3@seas.upenn.edu">email</a> or <a href="https://www.linkedin.com/in/daniel-seymour1/" target="_blank" rel="noopener noreferrer">connect</a> with me — I'd love to talk!</p>
