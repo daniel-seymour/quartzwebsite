@@ -4,7 +4,7 @@ enableToc: false
 ---
 <h3>About me</h3>
 
-<p>I'm a master's student at the University of Pennsylvania studying a Master of Computer and Information Technology as a <a href="https://www.thouronaward.org" target="_blank" rel="noopener noreferrer">Thouron Scholar</a>. This is a conversion course to computer science, which explains the vague-ish title to respect the ambigious status of the degree! <p>
+<p>I'm a master's student at the University of Pennsylvania studying a Master of Computer and Information Technology as a <a href="https://www.thouronaward.org" target="_blank" rel="noopener noreferrer">Thouron Scholar</a>. This is a conversion course to computer science. <p>
 
 <p> I previously studied Econometrics and Mathematical Economics at the London School of Economics, and I am originally from Bristol in the southwest of the UK.</p>
 
