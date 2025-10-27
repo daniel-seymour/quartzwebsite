@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
-<body>
+<body class="courses-page">
   {{ partial "search.html" . }}
   <div class="singlePage">
     {{ partial "header.html" . }}
@@ -16,6 +16,17 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   <style>
+    .courses-page {
+      background: #000;
+      color: #f3f3f3;
+    }
+
+    .courses-page a,
+    .courses-page .meta,
+    .courses-page h1 {
+      color: inherit;
+    }
+
     .course-timeline-wrapper {
       display: flex;
       flex-direction: column;
@@ -26,42 +37,38 @@
       width: 100%;
     }
 
-    .course-timeline {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.5rem;
-      justify-content: center;
-      padding: 1rem 0 2rem;
-      border-bottom: 2px solid var(--darkgray, #333);
+    .timeline-stage {
       position: relative;
+      padding-bottom: 4.5rem;
+    }
+
+    .course-timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.75rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 18px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.45);
     }
 
     .course-column {
-      flex: 1 1 240px;
-      max-width: 320px;
-      min-width: 220px;
       display: flex;
       flex-direction: column;
-      align-items: stretch;
-      justify-content: flex-end;
-      position: relative;
-      background: var(--light, rgba(255, 255, 255, 0.05));
+      gap: 1rem;
+      padding: 1.25rem;
       border-radius: 12px;
-      padding: 1rem 1.25rem 3rem;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-      backdrop-filter: blur(4px);
+      background: rgba(0, 0, 0, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
 
-    .course-column::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-      width: 80%;
-      height: 4px;
-      background: linear-gradient(90deg, #6aa9ff, #b069ff);
-      border-radius: 999px;
+    .course-year {
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #d0d0d0;
     }
 
     .course-list {
@@ -70,107 +77,192 @@
       margin: 0;
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
     .course-item {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      column-gap: 0.75rem;
+      align-items: center;
+      padding: 0.5rem 0.75rem;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       font-size: 0.95rem;
       line-height: 1.4;
-      position: relative;
-      padding-left: 1.25rem;
     }
 
-    .course-item::before {
-      content: "•";
+    .course-dot {
+      width: 0.85rem;
+      height: 0.85rem;
+      border-radius: 50%;
+      background: #8f8f8f;
+      border: 2px solid rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.08);
+    }
+
+    .course-name {
+      font-weight: 600;
+      color: #f7f7f7;
+    }
+
+    .course-department {
+      grid-column: 2 / -1;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(240, 240, 240, 0.65);
+    }
+
+    .timeline-axis {
+      position: absolute;
+      inset: auto 2rem 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .timeline-axis::before {
+      content: "";
       position: absolute;
       left: 0;
-      color: #6aa9ff;
-      font-weight: bold;
+      right: 0;
+      top: 50%;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.45));
+      transform: translateY(-50%);
+      z-index: -1;
     }
 
-    .course-year {
-      position: absolute;
-      bottom: -2.8rem;
-      left: 50%;
-      transform: translateX(-50%);
-      font-weight: 700;
-      font-size: 1.1rem;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--darkgray, #333);
+    .timeline-year-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: rgba(240, 240, 240, 0.8);
+      padding: 0.25rem 0.5rem;
     }
 
     @media (max-width: 768px) {
-      .course-column {
-        padding-bottom: 3.5rem;
+      .course-timeline {
+        padding: 1.5rem;
       }
 
-      .course-year {
-        bottom: -2.4rem;
+      .timeline-axis {
+        inset: auto 1.5rem 0 1.5rem;
       }
     }
   </style>
 
   <script>
+    const departmentColors = {
+      Philosophy: "#8c7bd0",
+      Mathematics: "#5b9aaa",
+      Statistics: "#c8a96a",
+      Economics: "#c07a63",
+      "Computer & Information Technology": "#6a92b2"
+    };
+
     const coursesData = [
       {
-        year: "2022/3",
+        year: "2022/23",
         courses: [
-          "The Big Questions: An Introduction to Philosophy",
-          "Mathematical Methods",
-          "Elementary Statistical Theory",
-          "Macroeconomics I",
-          "Microeconomics I",
-          "The LSE Course: How Can We Control AI?"
+          { title: "The Big Questions: An Introduction to Philosophy", department: "Philosophy" },
+          { title: "Mathematical Methods", department: "Mathematics" },
+          { title: "Elementary Statistical Theory", department: "Statistics" },
+          { title: "Macroeconomics I", department: "Economics" },
+          { title: "Microeconomics I", department: "Economics" },
+          { title: "The LSE Course: How Can We Control AI?", department: "Philosophy" }
         ]
       },
       {
-        year: "2023/4",
+        year: "2023/24",
         courses: [
-          "Rationality and Choice",
-          "Microeconomics II",
-          "Intermediate Logic and Probability",
-          "Econometrics II",
-          "Econometrics I",
-          "Introduction to Logic",
-          "Macroeconomics II"
+          { title: "Rationality and Choice", department: "Economics" },
+          { title: "Microeconomics II", department: "Economics" },
+          { title: "Intermediate Logic and Probability", department: "Mathematics" },
+          { title: "Econometrics II", department: "Statistics" },
+          { title: "Econometrics I", department: "Statistics" },
+          { title: "Introduction to Logic", department: "Philosophy" },
+          { title: "Macroeconomics II", department: "Economics" }
         ]
       },
       {
-        year: "2024/5",
+        year: "2024/25",
         courses: [
-          "Industrial Economics",
-          "Problems of Applied Econometrics",
-          "Quantitative Thesis",
-          "Advanced Macroeconomics",
-          "Probability and Distribution Theory"
+          { title: "Industrial Economics", department: "Economics" },
+          { title: "Problems of Applied Econometrics", department: "Statistics" },
+          { title: "Quantitative Thesis", department: "Economics" },
+          { title: "Advanced Macroeconomics", department: "Economics" },
+          { title: "Probability and Distribution Theory", department: "Statistics" }
+        ]
+      },
+      {
+        year: "2025/26",
+        courses: [
+          { title: "CIT 5910 Introduction to Software Development", department: "Computer & Information Technology" },
+          { title: "CIT 5920 Mathematical Foundations of Computer Science", department: "Computer & Information Technology" },
+          { title: "CIT 5930 Introduction to Computer Systems", department: "Computer & Information Technology" },
+          { title: "CIT 5940 Data Structures & Software Design", department: "Computer & Information Technology" },
+          { title: "CIT 5950 Computer Systems Programming", department: "Computer & Information Technology" },
+          { title: "CIT 5960 Algorithms & Computation", department: "Computer & Information Technology" }
         ]
       }
     ];
 
+    const timelineYears = ["2022", "2023", "2024", "2025", "2026"];
+
     function CourseTimeline() {
       return React.createElement(
         "div",
-        { className: "course-timeline" },
-        coursesData.map((group) =>
-          React.createElement(
-            "section",
-            { className: "course-column", key: group.year },
+        { className: "timeline-stage" },
+        React.createElement(
+          "div",
+          { className: "course-timeline" },
+          coursesData.map((group) =>
             React.createElement(
-              "ul",
-              { className: "course-list" },
-              group.courses.map((course) =>
-                React.createElement(
-                  "li",
-                  { className: "course-item", key: course },
-                  course
+              "section",
+              { className: "course-column", key: group.year },
+              React.createElement(
+                "div",
+                { className: "course-year" },
+                group.year
+              ),
+              React.createElement(
+                "ul",
+                { className: "course-list" },
+                group.courses.map((course) =>
+                  React.createElement(
+                    "li",
+                    { className: "course-item", key: course.title },
+                    React.createElement("span", {
+                      className: "course-dot",
+                      style: { backgroundColor: departmentColors[course.department] || "#888" }
+                    }),
+                    React.createElement(
+                      "span",
+                      { className: "course-name" },
+                      course.title
+                    ),
+                    React.createElement(
+                      "span",
+                      { className: "course-department" },
+                      course.department
+                    )
+                  )
                 )
               )
-            ),
+            )
+          )
+        ),
+        React.createElement(
+          "div",
+          { className: "timeline-axis" },
+          timelineYears.map((year) =>
             React.createElement(
-              "div",
-              { className: "course-year" },
-              group.year
+              "span",
+              { className: "timeline-year-label", key: year },
+              year
             )
           )
         )
