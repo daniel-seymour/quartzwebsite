@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "search.html" . }}
+  <div class="singlePage">
+    {{ partial "header.html" . }}
+    <article class="course-timeline-wrapper">
+      <h1>{{ .Title }}</h1>
+      <p class="meta">Explore the university courses I've taken, organized by academic year.</p>
+      <div id="course-timeline"></div>
+    </article>
+    {{ partial "footer.html" . }}
+  </div>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <style>
+    .course-timeline-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    #course-timeline {
+      width: 100%;
+    }
+
+    .course-timeline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      padding: 1rem 0 2rem;
+      border-bottom: 2px solid var(--darkgray, #333);
+      position: relative;
+    }
+
+    .course-column {
+      flex: 1 1 240px;
+      max-width: 320px;
+      min-width: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-end;
+      position: relative;
+      background: var(--light, rgba(255, 255, 255, 0.05));
+      border-radius: 12px;
+      padding: 1rem 1.25rem 3rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+      backdrop-filter: blur(4px);
+    }
+
+    .course-column::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      width: 80%;
+      height: 4px;
+      background: linear-gradient(90deg, #6aa9ff, #b069ff);
+      border-radius: 999px;
+    }
+
+    .course-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .course-item {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      position: relative;
+      padding-left: 1.25rem;
+    }
+
+    .course-item::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #6aa9ff;
+      font-weight: bold;
+    }
+
+    .course-year {
+      position: absolute;
+      bottom: -2.8rem;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--darkgray, #333);
+    }
+
+    @media (max-width: 768px) {
+      .course-column {
+        padding-bottom: 3.5rem;
+      }
+
+      .course-year {
+        bottom: -2.4rem;
+      }
+    }
+  </style>
+
+  <script>
+    const coursesData = [
+      {
+        year: "2022/3",
+        courses: [
+          "The Big Questions: An Introduction to Philosophy",
+          "Mathematical Methods",
+          "Elementary Statistical Theory",
+          "Macroeconomics I",
+          "Microeconomics I",
+          "The LSE Course: How Can We Control AI?"
+        ]
+      },
+      {
+        year: "2023/4",
+        courses: [
+          "Rationality and Choice",
+          "Microeconomics II",
+          "Intermediate Logic and Probability",
+          "Econometrics II",
+          "Econometrics I",
+          "Introduction to Logic",
+          "Macroeconomics II"
+        ]
+      },
+      {
+        year: "2024/5",
+        courses: [
+          "Industrial Economics",
+          "Problems of Applied Econometrics",
+          "Quantitative Thesis",
+          "Advanced Macroeconomics",
+          "Probability and Distribution Theory"
+        ]
+      }
+    ];
+
+    function CourseTimeline() {
+      return React.createElement(
+        "div",
+        { className: "course-timeline" },
+        coursesData.map((group) =>
+          React.createElement(
+            "section",
+            { className: "course-column", key: group.year },
+            React.createElement(
+              "ul",
+              { className: "course-list" },
+              group.courses.map((course) =>
+                React.createElement(
+                  "li",
+                  { className: "course-item", key: course },
+                  course
+                )
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "course-year" },
+              group.year
+            )
+          )
+        )
+      );
+    }
+
+    const courseTimelineRoot = document.getElementById("course-timeline");
+    if (courseTimelineRoot) {
+      const root = ReactDOM.createRoot(courseTimelineRoot);
+      root.render(React.createElement(CourseTimeline));
+    }
+  </script>
+</body>
+</html>
