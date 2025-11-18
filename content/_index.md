@@ -13,11 +13,16 @@ I'm a master's student at the University of Pennsylvania studying **Computer Sci
 <h3>Past Projects</h3>
 
 <ul>
-  <li><a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market </a></li>
+  <li>An interest in auctions and market design led to a thesis analyzing electricity auctions in Australia. ( <a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">Paper </a> | <a href="https://github.com/daniel-seymour/EC331-Thesis-Data" target="_blank" rel="noopener noreferrer">Code </a>)
+
+  <a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market </a>
+  
+  
+  </li>
   
   <li> <a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer"> The Relationship Between Business Dynamism and  Productivity Growth in the United States</a></li>
   
-  <li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>: A non-profit think tank focused on researching growth and innovation</li>
+  <li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, co-founded a non-profit think tank focused on researching growth and innovation</li>
 </ul>
 
 <h3>Contact</h3>
