@@ -22,4 +22,5 @@ I'm a master's student at the University of Pennsylvania studying **Computer Sci
 
 <p>Email: <a href="mailto:hello@danielseymour.co">hello@danielseymour.co</a></p>
 <p>LinkedIn: <a href="https://www.linkedin.com/in/daniel-seymour1/" target="_blank" rel="noopener noreferrer">Daniel Seymour</a></p>
+<p>GitHub: <a href="https://github.com/daniel-seymour" target="_blank" rel="noopener noreferrer">daniel-seymour</a></p>
 <p>Newsletter: <a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Substack</a></p>
