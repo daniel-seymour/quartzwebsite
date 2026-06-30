@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <ul style="list-style-type: none; padding-left: 0;">
+    {{ range .Paginator.Pages }}
+      <li style="margin-bottom: 0.5rem;">
+        <a href="{{ .Permalink }}">{{ .Title | default .File.LogicalName }}</a>
+      </li>
+    {{ end }}
+  </ul>
+  {{ template "_internal/pagination.html" . }}
+</article>
+{{ end }}

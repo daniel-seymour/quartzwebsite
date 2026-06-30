@@ -25,7 +25,7 @@ I'm a master's student at the University of Pennsylvania studying **Computer Sci
 
 <li> <a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer"> The Relationship Between Business Dynamism and  Productivity Growth in the United States</a> (<a href="https://github.com/daniel-seymour/EC334-Summative" target="_blank" rel="noopener noreferrer">Code</a>)</li>
 
-<li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, I co-founded a non-profit student think tank focused on researching growth and innovation</li>
+<li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, I co-founded a student think tank focused on researching growth and innovation</li>
 </ul>
 
 <h3>Contact</h3>

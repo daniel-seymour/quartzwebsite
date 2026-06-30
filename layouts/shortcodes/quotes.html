@@ -1,0 +1,51 @@
+<style>
+/* Hide the default page title for the Quotes page */
+article > h1:first-child {
+  display: none;
+}
+
+/* Quote tiles layout */
+.quotes-list {
+  position: relative;
+  min-height: 300vh;
+  margin-top: 2rem;
+}
+
+.quote-item {
+  position: absolute;
+  width: 260px;
+  max-width: 90%;
+  cursor: grab;
+  user-select: none;
+  transition: transform 0.2s;
+  /* Override inline margin that messes up absolute positioning */
+  margin: 0 !important;
+  border-left: 4px solid var(--tertiary, #6c757d);
+  padding: 1em 1.5em;
+  background: var(--light, rgba(0,0,0,0.05));
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: white; /* fallback */
+}
+
+.quote-item:active {
+  cursor: grabbing;
+}
+</style>
+
+<div style="margin-bottom: 1rem; text-align: right;">
+  <button id="shuffle-quotes-btn" style="padding: 0.25rem 0.6rem; font-size: 0.85rem; cursor: pointer; border-radius: 6px; border: 1px solid var(--outlinegray, #ccc); background: white; color: var(--dark, #333); box-shadow: 0 1px 3px rgba(0,0,0,0.05); transition: background 0.2s;">Shuffle</button>
+</div>
+
+<div class="quotes-list">
+  {{ range $.Site.Data.quotes }}
+  <blockquote class="quote-item">
+    <p style="font-size: 1.25em; font-style: italic; margin-bottom: 0.5em; line-height: 1.4;">"{{ .text }}"</p>
+    {{ if .author }}
+    <footer style="text-align: right; font-weight: 600; color: var(--secondary, #495057);">&mdash; {{ .author | safeHTML }}</footer>
+    {{ end }}
+  </blockquote>
+  {{ end }}
+</div>
+
+<script src="{{ "js/quotes-drag.js" | relURL }}" defer></script>

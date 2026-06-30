@@ -29,3 +29,22 @@
 
 
 
+
+/* Quote tiles layout */
+.quotes-list {
+  position: relative;
+  min-height: 80vh;
+}
+
+.quote-item {
+  position: absolute;
+  width: 260px;
+  max-width: 90%;
+  cursor: grab;
+  user-select: none;
+  transition: transform 0.2s;
+}
+
+.quote-item:active {
+  cursor: grabbing;
+}
