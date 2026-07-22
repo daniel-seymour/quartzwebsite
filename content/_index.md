@@ -56,7 +56,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Emerging from a IRS office to a post-snowstorm dusk (the office reminded me of <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a>)
+        Emerging from an IRS office to a post-snowstorm dusk (the office reminded me of <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a>)
     </div>
 </div>
 
