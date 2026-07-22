@@ -10,7 +10,7 @@ ul {
 }
 </style>
 
-<img src="/photo.jpg" alt="Daniel Seymour" style="float: right; width: 250px; max-width: 40%; margin-left: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+<img src="/photo.jpg" alt="Daniel Seymour" style="float: right; width: 350px; max-width: 50%; margin-left: 2rem; margin-bottom: 1rem;" />
 
 
 <h3>About me</h3>
