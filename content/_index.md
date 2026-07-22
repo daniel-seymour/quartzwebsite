@@ -13,42 +13,38 @@ ul {
     width: 450px;
     max-width: 60%;
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     position: relative;
+    z-index: 10;
+}
+.image-container img {
+    position: relative;
+    z-index: 2;
 }
 .caption-overlay {
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    bottom: 10px;
+    left: 5%;
+    right: 5%;
     background: var(--light);
     color: var(--dark);
-    padding: 10px;
+    padding: 14px 10px 10px 10px;
     text-align: center;
     font-size: 0.85rem;
     line-height: 1.4;
-    margin-top: 6px;
     border: 2px solid var(--dark);
-    border-radius: 6px;
-    z-index: 100;
+    border-top: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 1;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    visibility: hidden;
     opacity: 0;
-    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-    transform: translateY(-5px);
-}
-.caption-overlay::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: 0;
-    right: 0;
-    height: 10px;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+    transform: translateY(0);
 }
 .image-container:hover .caption-overlay {
-    visibility: visible;
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(100%);
 }
 .caption-overlay a {
     color: var(--dark) !important;
