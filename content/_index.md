@@ -60,7 +60,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Successfully leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a> style IRS office :)
+        Leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a> style IRS office to a post-snowstorm dusk :)
     </div>
 </div>
 
