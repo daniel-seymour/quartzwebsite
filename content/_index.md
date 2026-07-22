@@ -74,7 +74,7 @@ ul {
 
 I'm a master's student at the University of Pennsylvania studying Computer Science as a Thouron Scholar.</p>
 
-<p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. I grew up in the South West of the UK. </p>
+<p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. I grew up in the South West of England. </p>
 
 <h3>Past Projects</h3>
 
