@@ -63,7 +63,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Emerging from an IRS outpost to the post-snowstorm dusk, inside was like <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a>.
+        Emerging from an IRS outpost in New Jersey
     </div>
 </div>
 
