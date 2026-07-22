@@ -17,14 +17,14 @@ ul {
 
 <p>Hi, my name is Daniel. Welcome to my website!
 
-I'm a master's student at the University of Pennsylvania studying **Computer Science** as a Thouron Scholar.</p>
+I'm a master's student at the University of Pennsylvania studying Computer Science as a Thouron Scholar.</p>
 
-<p> I previously studied <strong>Econometrics and Mathematical Economics</strong> at the London School of Economics. I grew up in the South West of the UK. </p>
+<p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. I grew up in the South West of the UK. </p>
 
 <h3>Past Projects</h3>
 
 <ul>
-<li><a href="https://bookclub-showcase.dj-seymour.workers.dev/vote" target="_blank" rel="noopener noreferrer">Bookclub website for voting and archiving</a></li>
+<li><a href="https://bookclub-showcase.dj-seymour.workers.dev/vote" target="_blank" rel="noopener noreferrer">Showcase bookclub website made for friends</a></li>
 <li><a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market </a> (<a href="https://github.com/daniel-seymour/EC331-Thesis-Data" target="_blank" rel="noopener noreferrer">Code</a>) </li>
 
 <li> <a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer"> The Relationship Between Business Dynamism and  Productivity Growth in the United States</a> (<a href="https://github.com/daniel-seymour/EC334-Summative" target="_blank" rel="noopener noreferrer">Code</a>)</li>
