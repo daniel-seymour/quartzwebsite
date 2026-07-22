@@ -63,7 +63,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Emerging from an IRS outpost in New Jersey
+        Emerging from an IRS outpost in New Jersey.
     </div>
 </div>
 
