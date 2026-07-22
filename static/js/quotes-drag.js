@@ -13,7 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Randomly position each tile if no saved data
   const tiles = container.querySelectorAll('.quote-item');
+  
+  const categorySelect = document.getElementById('quote-category-select');
+  const categories = new Set();
+
   tiles.forEach(tile => {
+    const cat = tile.dataset.category;
+    if (cat && cat !== 'uncategorized') {
+      categories.add(cat);
+    }
     // Generate an ID for the tile if we don't have one
     // Let's use the quote text itself as an ID for persistence
     const pTag = tile.querySelector('p');
@@ -108,12 +116,35 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('touchend', onMouseUp);
   });
 
+  if (categorySelect && categories.size > 0) {
+    categorySelect.style.display = 'block';
+    const sortedCategories = Array.from(categories).sort();
+    sortedCategories.forEach(cat => {
+      const option = document.createElement('option');
+      option.value = cat;
+      option.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+      categorySelect.appendChild(option);
+    });
+
+    categorySelect.addEventListener('change', (e) => {
+      const selected = e.target.value;
+      tiles.forEach(tile => {
+        if (selected === 'all' || tile.dataset.category === selected) {
+          tile.style.display = '';
+        } else {
+          tile.style.display = 'none';
+        }
+      });
+    });
+  }
+
   // Shuffle logic
   const shuffleBtn = document.getElementById('shuffle-quotes-btn');
   if (shuffleBtn) {
     shuffleBtn.addEventListener('click', () => {
       const parentRect = container.getBoundingClientRect();
       tiles.forEach(tile => {
+        if (tile.style.display === 'none') return;
         const id = tile.dataset.id;
         // Use offsetWidth/offsetHeight in case bounding client rect is mid-transition
         const rectWidth = tile.offsetWidth || 260; 

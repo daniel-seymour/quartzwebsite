@@ -10,6 +10,9 @@ ul {
 }
 </style>
 
+<img src="/photo.jpg" alt="Daniel Seymour" style="float: right; width: 250px; max-width: 40%; margin-left: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" />
+
+
 <h3>About me</h3>
 
 <p>Hi, my name is Daniel. Welcome to my website!
@@ -28,11 +31,17 @@ I'm a master's student at the University of Pennsylvania studying **Computer Sci
 <li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, I co-founded a student think tank focused on researching growth and innovation</li>
 </ul>
 
+<h3>Quotes</h3>
+
+<ul>
+<li><a href="/quotes">Quotes that resonate(d)</a></li>
+</ul>
+
 <h3>Contact</h3>
 
 <ul>
 <li>Email: <a href="mailto:hello@danielseymour.co">hello@danielseymour.co</a></li>
 <li><a href="https://www.linkedin.com/in/daniel-seymour1/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
 <li><a href="https://github.com/daniel-seymour" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-<li><a href="https://danielseymour.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile" target="_blank" rel="noopener noreferrer">Newsletter</a></li>
+<li><a href="https://www.goodreads.com/user/show/26856901-daniel" target="_blank" rel="noopener noreferrer">Goodreads</a></li>
 </ul>

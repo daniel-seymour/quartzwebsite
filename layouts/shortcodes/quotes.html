@@ -35,7 +35,7 @@ article > h1:first-child {
 
 <div class="quotes-list">
   {{ range $.Site.Data.quotes }}
-  <blockquote class="quote-item">
+  <blockquote class="quote-item" data-category="{{ .category | default "uncategorized" }}">
     <p style="font-size: 1.25em; font-style: italic; margin-bottom: 0.5em; line-height: 1.4;">"{{ .text }}"</p>
     {{ if .author }}
     <footer style="text-align: right; font-weight: 600; color: var(--secondary, #495057);">&mdash; {{ .author | safeHTML }}</footer>

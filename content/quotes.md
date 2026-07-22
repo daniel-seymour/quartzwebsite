@@ -1,7 +1,7 @@
 ---
 title: "Quotes"
 noindex: true
-url: "/q-8x2p/"
+url: "/quotes/"
 _build:
   list: never
 ---
