@@ -8,6 +8,9 @@ ul {
     padding-left: 0;
     list-style-position: inside;
 }
+.about-section {
+    display: block;
+}
 .image-container {
     float: right;
     width: 450px;
@@ -18,6 +21,7 @@ ul {
     z-index: 10;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .image-container p {
     margin: 0 !important;
@@ -49,7 +53,15 @@ ul {
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
     transform: translateY(-100%);
 }
-.image-container:hover .caption-overlay {
+/* Desktop: caption on hover (mouse devices only) */
+@media (hover: hover) and (pointer: fine) {
+    .image-container:hover .caption-overlay {
+        opacity: 1;
+        transform: translateY(-2px);
+    }
+}
+/* Tap-to-toggle caption (all devices) */
+.image-container.caption-active .caption-overlay {
     opacity: 1;
     transform: translateY(-2px);
 }
@@ -58,15 +70,41 @@ ul {
     text-decoration: underline;
     font-weight: bold;
 }
+/* Tablet: narrower image for better text flow */
+@media (max-width: 900px) and (min-width: 601px) {
+    .image-container {
+        width: 280px;
+        max-width: 40%;
+        margin-left: 1.5rem;
+    }
+}
+/* Phone: stacked layout — text first, then image */
+@media (max-width: 600px) {
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-text {
+        order: 1;
+    }
+    .image-container {
+        order: 2;
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 1rem 0 1.5rem;
+    }
+}
 </style>
 
-<div class="image-container">
+<div class="about-section">
+<div class="image-container" onclick="this.classList.toggle('caption-active')">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
         Emerging from an IRS outpost in New Jersey.
     </div>
 </div>
-
+<div class="about-text">
 
 <h3>About me</h3>
 
@@ -75,6 +113,9 @@ ul {
 I'm a master's student at the University of Pennsylvania studying Computer Science as a Thouron Scholar.</p>
 
 <p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. I grew up in the South West of England. </p>
+
+</div>
+</div>
 
 <h3>Past Projects</h3>
 
