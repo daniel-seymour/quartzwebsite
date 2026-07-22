@@ -16,6 +16,13 @@ ul {
     margin-bottom: 2rem;
     position: relative;
     z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+.image-container p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0;
 }
 .image-container img {
     position: relative;
