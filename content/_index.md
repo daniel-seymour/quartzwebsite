@@ -31,11 +31,6 @@ I'm a master's student at the University of Pennsylvania studying **Computer Sci
 <li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, I co-founded a student think tank focused on researching growth and innovation</li>
 </ul>
 
-<h3>Quotes</h3>
-
-<ul>
-<li><a href="/quotes">Quotes that resonate(d)</a></li>
-</ul>
 
 <h3>Contact</h3>
 
