@@ -23,12 +23,12 @@ ul {
 }
 .caption-overlay {
     position: absolute;
-    bottom: 10px;
+    top: 100%;
     left: 5%;
     right: 5%;
     background: var(--light);
     color: var(--dark);
-    padding: 14px 10px 10px 10px;
+    padding: 10px;
     text-align: center;
     font-size: 0.85rem;
     line-height: 1.4;
@@ -40,11 +40,11 @@ ul {
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     opacity: 0;
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
-    transform: translateY(0);
+    transform: translateY(-100%);
 }
 .image-container:hover .caption-overlay {
     opacity: 1;
-    transform: translateY(100%);
+    transform: translateY(-2px);
 }
 .caption-overlay a {
     color: var(--dark) !important;
@@ -56,7 +56,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a> style IRS office to a post-snowstorm dusk :)
+        Leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a> style IRS office to a post-snowstorm dusk
     </div>
 </div>
 
