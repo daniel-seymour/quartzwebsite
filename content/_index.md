@@ -21,39 +21,39 @@ ul {
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--dark);
-    color: var(--light);
+    background: var(--light);
+    color: var(--dark);
     padding: 10px;
     text-align: center;
     font-size: 0.85rem;
     line-height: 1.4;
-    margin-top: 12px;
+    margin-top: 6px;
+    border: 2px solid var(--dark);
     border-radius: 6px;
-    z-index: 10;
+    z-index: 100;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    visibility: hidden;
     opacity: 0;
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
     transform: translateY(-5px);
-    pointer-events: none;
 }
-.image-container:hover .caption-overlay {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-}
-.caption-overlay::after {
+.caption-overlay::before {
     content: "";
     position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -8px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent var(--dark) transparent;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+.image-container:hover .caption-overlay {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
 .caption-overlay a {
-    color: var(--light) !important;
+    color: var(--dark) !important;
     text-decoration: underline;
+    font-weight: bold;
 }
 </style>
 
