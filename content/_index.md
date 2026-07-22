@@ -31,8 +31,8 @@ ul {
 .caption-overlay {
     position: absolute;
     top: 100%;
-    left: 5%;
-    right: 5%;
+    left: 0;
+    right: 0;
     background: var(--light);
     color: var(--dark);
     padding: 10px;
@@ -63,7 +63,7 @@ ul {
 <div class="image-container">
     <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
     <div class="caption-overlay">
-        Emerging from an IRS outpost to a post-snowstorm dusk (the office reminded me of <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a>)
+        Emerging from an IRS outpost to the post-snowstorm dusk, inside was like <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a>.
     </div>
 </div>
 
