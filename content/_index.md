@@ -8,21 +8,59 @@ ul {
     padding-left: 0;
     list-style-position: inside;
 }
+.image-container {
+    float: right;
+    width: 450px;
+    max-width: 60%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
 .caption-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--dark);
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-top: 12px;
+    border-radius: 6px;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-5px);
     pointer-events: none;
 }
 .image-container:hover .caption-overlay {
     opacity: 1;
+    transform: translateY(0);
     pointer-events: auto;
+}
+.caption-overlay::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent var(--dark) transparent;
+}
+.caption-overlay a {
+    color: var(--light) !important;
+    text-decoration: underline;
 }
 </style>
 
-<div class="image-container" style="float: right; width: 450px; max-width: 60%; margin-left: 2rem; margin-bottom: 1rem; position: relative;">
-    <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block;" />
-    <div class="caption-overlay" style="position: absolute; top: 100%; left: 0; right: 0; background: rgba(0, 0, 0, 0.8); color: white; padding: 10px; text-align: center; font-size: 0.85rem; line-height: 1.4; margin-top: 8px; border-radius: 4px; z-index: 10; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-        Successfully leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">Office Space</a> style IRS office :)
+<div class="image-container">
+    <img src="/photo.jpg" alt="Daniel Seymour" style="width: 100%; display: block; border-radius: 4px;" />
+    <div class="caption-overlay">
+        Successfully leaving an <a href="https://www.youtube.com/watch?v=jsLUidiYm0w" target="_blank" rel="noopener noreferrer">Office Space</a> style IRS office :)
     </div>
 </div>
 
