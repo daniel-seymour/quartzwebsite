@@ -121,7 +121,7 @@ I'm a master's student at the University of Pennsylvania studying Computer Scien
 
 <ul>
 <li><a href="https://bookclub-showcase.dj-seymour.workers.dev" target="_blank" rel="noopener noreferrer">Bookclub website</a> made for friends</li>
-<li><a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia</a>, a student think tank I co-founded focused on researching growth and innovation</li>
+<li><a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia</a>, a student think tank I co-founded focused on researching growth and innovation in the UK</li>
 </ul>
 
 <h3>Academic</h3>
