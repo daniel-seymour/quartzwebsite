@@ -129,7 +129,7 @@ I'm a master's student at the University of Pennsylvania studying Computer Scien
 <ul>
 <li><a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market</a> (<a href="https://github.com/daniel-seymour/EC331-Thesis-Data" target="_blank" rel="noopener noreferrer">Code</a>)</li>
 <li><a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer">The Relationship Between Business Dynamism and Productivity Growth in the United States</a> (<a href="https://github.com/daniel-seymour/EC334-Summative" target="_blank" rel="noopener noreferrer">Code</a>)</li>
-<li>Time essay <span class="coming-soon">(coming soon)</span></li>
+<li><a href="https://drive.google.com/file/d/1Us0UxpKk6Kx-kwFMp7iuO4oJg2QlqUZO/view?usp=sharing" target="_blank" rel="noopener noreferrer">Evaluate McTaggart's Argument for the Unreality of Time</a></li>
 </ul>
 
 <h3>Other</h3>
