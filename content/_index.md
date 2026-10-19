@@ -112,7 +112,7 @@ ul {
 
 I'm a master's student at the University of Pennsylvania studying Computer Science as a Thouron Scholar.</p>
 
-<p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. I grew up in the South West of England. </p>
+<p> I previously studied Econometrics and Mathematical Economics at the London School of Economics. And I also studied some of LSE's very specific brand of philosophy. I grew up in the South West of England. </p>
 
 </div>
 </div>
@@ -135,7 +135,7 @@ I'm a master's student at the University of Pennsylvania studying Computer Scien
 <h3>Other</h3>
 
 <ul>
-<li><a href="/beowulf/">The first 25 lines of Beowulf</a></li>
+<li><a href="/beowulf/">Beowulf</a></li>
 <li>A little <a href="https://www.icloud.com/shortcuts/bfddd52a579b4def860e92f4e32b93a9" target="_blank" rel="noopener noreferrer">Apple Shortcut</a> to randomise <a href="https://selvaradov.net/hotseat-questions/" target="_blank" rel="noopener noreferrer">Rohan’s questions for getting to know people</a></li>
 </ul>
 
