@@ -117,17 +117,27 @@ I'm a master's student at the University of Pennsylvania studying Computer Scien
 </div>
 </div>
 
-<h3>Past Projects</h3>
+<h3>Projects</h3>
 
 <ul>
-<li><a href="https://bookclub-showcase.dj-seymour.workers.dev" target="_blank" rel="noopener noreferrer">Bookclub website made for friends</a></li>
-<li><a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market </a> (<a href="https://github.com/daniel-seymour/EC331-Thesis-Data" target="_blank" rel="noopener noreferrer">Code</a>) </li>
-
-<li> <a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer"> The Relationship Between Business Dynamism and  Productivity Growth in the United States</a> (<a href="https://github.com/daniel-seymour/EC334-Summative" target="_blank" rel="noopener noreferrer">Code</a>)</li>
-
-<li> <a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia Group</a>, I co-founded a student think tank focused on researching growth and innovation</li>
+<li><a href="https://bookclub-showcase.dj-seymour.workers.dev" target="_blank" rel="noopener noreferrer">Bookclub website</a> made for friends</li>
+<li><a href="https://www.protopiagroup.org" target="_blank" rel="noopener noreferrer">Protopia</a>, a student think tank I co-founded focused on researching growth and innovation</li>
 </ul>
 
+<h3>Academic</h3>
+
+<ul>
+<li><a href="https://drive.google.com/file/d/1n2c4OXm6iQ1VmHytktzI5GnK_xJxNX8o/view?usp=sharing" target="_blank" rel="noopener noreferrer">The Price of Watt: An Investigation of Market Power in the Australian Electricity Balancing Market</a> (<a href="https://github.com/daniel-seymour/EC331-Thesis-Data" target="_blank" rel="noopener noreferrer">Code</a>)</li>
+<li><a href="https://drive.google.com/file/d/1DVJlkyY1GSEv2YhyaGx8zBj-zK1CccVg/view" target="_blank" rel="noopener noreferrer">The Relationship Between Business Dynamism and Productivity Growth in the United States</a> (<a href="https://github.com/daniel-seymour/EC334-Summative" target="_blank" rel="noopener noreferrer">Code</a>)</li>
+<li>Time essay <span class="coming-soon">(coming soon)</span></li>
+</ul>
+
+<h3>Other</h3>
+
+<ul>
+<li><a href="/beowulf/">The first 25 lines of Beowulf</a></li>
+<li>A little <a href="https://www.icloud.com/shortcuts/bfddd52a579b4def860e92f4e32b93a9" target="_blank" rel="noopener noreferrer">Apple Shortcut</a> to randomise <a href="https://selvaradov.net/hotseat-questions/" target="_blank" rel="noopener noreferrer">Rohan’s questions for getting to know people</a></li>
+</ul>
 
 <h3>Contact</h3>
 
