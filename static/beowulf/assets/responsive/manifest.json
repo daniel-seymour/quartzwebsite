@@ -1,0 +1,223 @@
+{
+  "format": "webp",
+  "quality": 84,
+  "encoder": "cwebp 1.6.0",
+  "images": [
+    {
+      "source": "assets/beowulf-hero-lithographs.jpg",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 919627,
+      "variants": [
+        {
+          "file": "assets/responsive/beowulf-hero-lithographs-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 15036
+        },
+        {
+          "file": "assets/responsive/beowulf-hero-lithographs-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 34502
+        },
+        {
+          "file": "assets/responsive/beowulf-hero-lithographs-1200.webp",
+          "width": 1200,
+          "height": 675,
+          "bytes": 71788
+        },
+        {
+          "file": "assets/responsive/beowulf-hero-lithographs-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 173894
+        },
+        {
+          "file": "assets/responsive/beowulf-hero-lithographs-2560.webp",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 387788
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/01-genealogical-tree.jpg",
+      "width": 1625,
+      "height": 2000,
+      "bytes": 1378660,
+      "variants": [
+        {
+          "file": "assets/responsive/01-genealogical-tree-480.webp",
+          "width": 480,
+          "height": 591,
+          "bytes": 74982
+        },
+        {
+          "file": "assets/responsive/01-genealogical-tree-800.webp",
+          "width": 800,
+          "height": 985,
+          "bytes": 233214
+        },
+        {
+          "file": "assets/responsive/01-genealogical-tree-1200.webp",
+          "width": 1200,
+          "height": 1477,
+          "bytes": 521016
+        },
+        {
+          "file": "assets/responsive/01-genealogical-tree-1625.webp",
+          "width": 1625,
+          "height": 2000,
+          "bytes": 1049258
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/02-view-of-scandinavia.jpg",
+      "width": 1115,
+      "height": 1500,
+      "bytes": 467303,
+      "variants": [
+        {
+          "file": "assets/responsive/02-view-of-scandinavia-480.webp",
+          "width": 480,
+          "height": 646,
+          "bytes": 66138
+        },
+        {
+          "file": "assets/responsive/02-view-of-scandinavia-800.webp",
+          "width": 800,
+          "height": 1076,
+          "bytes": 180392
+        },
+        {
+          "file": "assets/responsive/02-view-of-scandinavia-1115.webp",
+          "width": 1115,
+          "height": 1500,
+          "bytes": 393130
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/03-hand-holding-sword.jpg",
+      "width": 609,
+      "height": 640,
+      "bytes": 136246,
+      "variants": [
+        {
+          "file": "assets/responsive/03-hand-holding-sword-480.webp",
+          "width": 480,
+          "height": 504,
+          "bytes": 46554
+        },
+        {
+          "file": "assets/responsive/03-hand-holding-sword-609.webp",
+          "width": 609,
+          "height": 640,
+          "bytes": 102842
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/04-beowulf.jpg",
+      "width": 575,
+      "height": 772,
+      "bytes": 166797,
+      "variants": [
+        {
+          "file": "assets/responsive/04-beowulf-480.webp",
+          "width": 480,
+          "height": 644,
+          "bytes": 59530
+        },
+        {
+          "file": "assets/responsive/04-beowulf-575.webp",
+          "width": 575,
+          "height": 772,
+          "bytes": 116146
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/05-grendels-mother.jpg",
+      "width": 574,
+      "height": 788,
+      "bytes": 129849,
+      "variants": [
+        {
+          "file": "assets/responsive/05-grendels-mother-480.webp",
+          "width": 480,
+          "height": 659,
+          "bytes": 44400
+        },
+        {
+          "file": "assets/responsive/05-grendels-mother-574.webp",
+          "width": 574,
+          "height": 788,
+          "bytes": 87548
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/06-dragon.jpg",
+      "width": 576,
+      "height": 771,
+      "bytes": 181469,
+      "variants": [
+        {
+          "file": "assets/responsive/06-dragon-480.webp",
+          "width": 480,
+          "height": 643,
+          "bytes": 71960
+        },
+        {
+          "file": "assets/responsive/06-dragon-576.webp",
+          "width": 576,
+          "height": 771,
+          "bytes": 134356
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/07-funeral-pyre.jpg",
+      "width": 580,
+      "height": 765,
+      "bytes": 123148,
+      "variants": [
+        {
+          "file": "assets/responsive/07-funeral-pyre-480.webp",
+          "width": 480,
+          "height": 633,
+          "bytes": 36524
+        },
+        {
+          "file": "assets/responsive/07-funeral-pyre-580.webp",
+          "width": 580,
+          "height": 765,
+          "bytes": 71762
+        }
+      ]
+    },
+    {
+      "source": "assets/lithographs/08-colophon.jpg",
+      "width": 589,
+      "height": 760,
+      "bytes": 125696,
+      "variants": [
+        {
+          "file": "assets/responsive/08-colophon-480.webp",
+          "width": 480,
+          "height": 619,
+          "bytes": 47230
+        },
+        {
+          "file": "assets/responsive/08-colophon-589.webp",
+          "width": 589,
+          "height": 760,
+          "bytes": 86998
+        }
+      ]
+    }
+  ]
+}

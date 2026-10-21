@@ -121,7 +121,10 @@
   }
 
   function update() {
-    const time = audio.currentTime;
+    // Browsers can report a seek a microsecond before the assigned cue (for
+    // example, 16.219999 for 16.22). Match the clock at millisecond precision
+    // so tapping a word highlights that word, including while paused.
+    const time = Math.round(audio.currentTime * 1000) / 1000;
     const index = audio.ended || audio.error ? -1 : timings.findIndex(cue => time >= cue.start && time < cue.end);
     if (index === activeIndex) return;
     mark(activeIndex, false);
